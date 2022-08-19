@@ -1,0 +1,273 @@
+16:13:40.032 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+16:13:40.041 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+16:13:40.041 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+16:13:40.047 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3e1624c7
+16:13:40.081 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+16:13:40.082 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+16:13:40.083 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+16:13:40.084 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+16:13:40.085 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+16:13:40.085 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+16:13:40.086 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+16:13:40.088 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2038ae61
+16:13:40.089 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+16:13:40.089 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+16:13:40.090 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 1610612736 bytes (maybe)
+16:13:40.091 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\pavan\AppData\Local\Temp (java.io.tmpdir)
+16:13:40.091 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+16:13:40.091 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+16:13:40.092 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+16:13:40.093 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+16:13:40.094 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+16:13:40.094 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+16:13:40.106 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+16:13:40.128 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+16:13:40.129 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+16:13:40.203 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+16:13:40.204 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+16:13:40.231 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+16:13:40.242 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+16:13:40.242 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+16:13:40.287 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+16:13:40.287 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+16:13:40.288 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+16:13:40.298 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+16:13:40.299 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+16:13:40.299 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+16:13:40.899 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 10320 (auto-detected)
+16:13:40.904 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+16:13:40.904 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+16:13:40.908 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+16:13:40.910 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+16:13:40.914 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:1c:42:ff:fe:5c:a4:7a (auto-detected)
+16:13:40.993 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+16:13:40.994 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+16:13:40.994 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@185fa3f0
+16:13:41.038 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+16:13:41.038 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+16:13:41.038 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+16:13:41.038 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+16:13:42.200 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+16:13:42.590 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe0d2090e0550e931
+16:13:44.037 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:13:44.264 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:13:44.906 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:13:45.095 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:13:45.220 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:13:45.367 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:13:45.533 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:13:45.679 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:13:48.511 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:13:48.596 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+16:18:28.949 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:18:29.159 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:18:29.806 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:18:29.979 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:18:30.135 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:18:30.277 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:18:30.424 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:18:30.571 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:18:33.447 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:18:33.540 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+15:41:57.996 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+15:41:58.234 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+15:41:59.389 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+15:41:59.632 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+15:41:59.759 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+15:41:59.919 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+15:42:00.075 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+15:42:00.235 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+15:42:03.310 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+15:42:03.395 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+15:51:13.246 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+15:51:13.514 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+15:51:14.154 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+15:51:14.370 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+15:51:14.524 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+15:51:14.683 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+15:51:14.819 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+15:51:14.961 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+15:51:17.829 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+15:51:17.907 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+15:51:49.761 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+15:51:49.925 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+15:51:50.361 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+15:51:50.473 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+15:51:50.541 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+15:51:50.622 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+15:51:50.709 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+15:51:50.837 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+15:51:53.376 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+15:51:53.429 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+15:55:33.978 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+15:55:34.238 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+15:55:34.923 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+15:55:35.225 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+15:55:35.349 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+15:55:35.396 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+15:55:35.509 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+15:55:35.700 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+15:55:35.816 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+15:55:36.036 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+15:55:36.536 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+15:55:36.773 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+15:55:36.906 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+15:55:37.224 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+15:55:37.385 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+15:55:37.673 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+15:55:39.259 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+15:55:39.302 [TestNG-tests-2] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+15:55:40.821 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+15:55:40.885 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+16:10:38.972 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:10:39.192 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:10:39.894 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:10:40.072 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:10:40.207 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:10:40.379 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:10:40.532 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:10:40.679 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:10:43.556 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:10:43.627 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+16:44:05.786 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:44:05.993 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:44:06.664 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:44:06.854 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:44:06.979 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:44:07.137 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:44:07.300 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:44:07.448 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:44:10.251 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:44:10.336 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+16:46:15.885 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:46:16.066 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:46:16.718 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:46:16.894 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:46:17.029 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:46:17.185 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:46:17.333 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:46:17.470 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:46:18.191 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+17:07:05.943 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+17:07:06.125 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+17:07:06.733 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+17:07:06.913 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+17:07:07.053 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+17:07:07.213 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+17:07:07.352 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+17:07:07.483 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+17:07:08.213 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+17:07:22.908 [main] INFO  testCases.TC_002_LoginTest -  ********   Starting TC_002_LoginText ********
+16:24:15.624 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********** Starting TC_003_LoginDataDrivenTest ***********
+16:24:27.679 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********   Finished TC_003_LoginDataDrivenTest ***********
+16:24:27.703 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********** Starting TC_003_LoginDataDrivenTest ***********
+16:24:39.647 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********   Finished TC_003_LoginDataDrivenTest ***********
+16:24:39.656 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********** Starting TC_003_LoginDataDrivenTest ***********
+16:24:50.807 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********   Finished TC_003_LoginDataDrivenTest ***********
+16:24:50.807 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********** Starting TC_003_LoginDataDrivenTest ***********
+16:25:01.872 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********   Finished TC_003_LoginDataDrivenTest ***********
+16:25:01.888 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********** Starting TC_003_LoginDataDrivenTest ***********
+16:25:03.754 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ********   Finished TC_003_LoginDataDrivenTest ***********
+16:37:18.351 [main] INFO  testCases.TC_002_LoginTest -  ********   Starting TC_002_LoginText ********
+16:37:20.038 [main] INFO  testCases.TC_002_LoginTest - ***********   Finished TC_002_LoginText **************
+16:38:01.950 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:38:02.170 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:38:02.904 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:38:03.063 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:38:03.210 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:38:03.368 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:38:03.502 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:38:03.639 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:38:04.366 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:38:18.999 [main] INFO  testCases.TC_002_LoginTest -  ********   Starting TC_002_LoginText ********
+16:38:20.629 [main] INFO  testCases.TC_002_LoginTest - ***********   Finished TC_002_LoginText **************
+16:42:28.783 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:42:29.008 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:42:29.630 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:42:29.803 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:42:29.955 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:42:30.099 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:42:30.239 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:42:30.375 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:42:33.279 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:42:33.383 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+16:44:35.939 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:44:36.149 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:44:36.741 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:44:36.919 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:44:37.050 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:44:37.202 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:44:37.352 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:44:37.503 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:44:40.317 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:44:40.401 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+16:44:42.886 [main] INFO  testCases.TC_002_LoginTest -  ********   Starting TC_002_LoginText ********
+15:54:20.918 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+15:54:21.213 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+15:54:22.181 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+15:54:22.444 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+15:54:22.571 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+15:54:22.719 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+15:54:22.878 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+15:54:23.027 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+15:54:26.275 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+15:54:26.608 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+15:54:30.179 [main] INFO  testCases.TC_002_LoginTest -  ********   Starting TC_002_LoginText ********
+15:54:32.228 [main] INFO  testCases.TC_002_LoginTest - ***********   Finished TC_002_LoginText **************
+15:54:59.763 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+15:54:59.973 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+15:55:00.668 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+15:55:00.896 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+15:55:01.029 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+15:55:01.180 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+15:55:01.314 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+15:55:01.486 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+15:55:04.356 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+15:55:04.442 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+15:55:07.011 [main] INFO  testCases.TC_002_LoginTest -  ********   Starting TC_002_LoginText ********
+15:55:08.802 [main] INFO  testCases.TC_002_LoginTest - ***********   Finished TC_002_LoginText **************
+16:11:44.821 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:11:45.039 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:11:45.664 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:11:45.843 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:11:45.985 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:11:46.163 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:11:46.352 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:11:46.495 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:11:49.306 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:11:49.399 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+16:11:52.330 [main] INFO  testCases.TC_002_LoginTest -  ********   Starting TC_002_LoginText ********
+16:11:53.796 [main] INFO  testCases.TC_002_LoginTest - ***********   Finished TC_002_LoginText **************
+16:13:08.888 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:13:09.085 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:13:09.650 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:13:09.804 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:13:09.934 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:13:10.070 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:13:10.204 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:13:10.345 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:13:13.129 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:13:13.210 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+16:13:16.204 [main] INFO  testCases.TC_002_LoginTest -  ********   Starting TC_002_LoginText ********
+16:13:17.718 [main] INFO  testCases.TC_002_LoginTest - ***********   Finished TC_002_LoginText **************
+16:16:50.230 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Starting TC_001_AccountRegistrationTest *******
+16:16:50.408 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on MyAccount
+16:16:50.993 [main] INFO  testCases.TC_001_AccountRegistrationTest - clicked on Register
+16:16:51.172 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided first name
+16:16:51.298 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided last name
+16:16:51.445 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provide email
+16:16:51.581 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephone
+16:16:51.726 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided password
+16:16:54.628 [main] INFO  testCases.TC_001_AccountRegistrationTest - Provided telephoneclick on continue
+16:16:54.698 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ******* Finesh TC_001_AccountRegistrationTest ******
+16:16:57.568 [main] INFO  testCases.TC_002_LoginTest -  ********   Starting TC_002_LoginText ********
+16:16:58.984 [main] INFO  testCases.TC_002_LoginTest - ***********   Finished TC_002_LoginText **************
